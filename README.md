@@ -1,4 +1,4 @@
-# Macaron_rstheme
+# Macaron-rstheme
 
 ## Template source:https://github.com/Xiaoyang-Song/RStudio-Theme-Customization
 
