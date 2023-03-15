@@ -1,5 +1,7 @@
 # Macaron_rstheme
 
+Template source:https://github.com/Xiaoyang-Song/RStudio-Theme-Customization
+
 References:
 1. https://github.com/Xiaoyang-Song/RStudio-Theme-Customization
 2. https://github.com/batpigandme/night-owlish
@@ -13,3 +15,14 @@ This is an Rstudio theme that is not yet completely satisfactory, but can be use
 Example
 ![Example](https://user-images.githubusercontent.com/127744117/225313248-f1695d8a-ee0c-449c-92bc-ba9cbdda7e58.png)
 
+
+By the way, remember if you want to modify the color of the operators. The color of the operators is not included in the global variable in the author's template.
+```
+.ace_keyword:not(.ace_operator),
+.ace_meta,
+.ace_storage,
+.ace_storage.ace_type,
+.ace_support.ace_type {
+  color: <your color>;
+}
+```
