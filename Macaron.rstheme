@@ -2,13 +2,13 @@
 /* rs-theme-is-dark: TRUE */
 :root {
   /* editor */
-  --editor-background-color: #1F0B14;
-  --editor-background: #1f0c11;
+  --editor-background-color: #282a36;
+  --editor-background: #282a36;
   --editor-foreground: #CDC3CA;
 
   --separator: #3f1722;
-  --toolbar: #3f1722;
-  --tab: #3f1722;
+  --toolbar: rgba(255, 255, 255, 0.15);
+  --tab: rgba(255, 255, 255, 0.15);
   --selected-tab: #3f1722;
 
   /* syntax */
@@ -28,7 +28,7 @@
 }
 
 .ace_gutter {
-  color: #FD971F;
+  color: #b78;
 }
 
 .ace_print-margin {
